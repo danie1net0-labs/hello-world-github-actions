@@ -10,6 +10,6 @@ jobs:
   build:
     runs-on: [self-hosted, linux]
     steps:
-    - uses: actions/hello-world-github-actions@v1
+    - uses: danie1net0-labs/hello-world-github-actions@v1
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag hello-world-image:$(date +%s)
