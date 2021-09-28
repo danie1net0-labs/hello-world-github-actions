@@ -1,0 +1,5 @@
+name: 'Hello World'
+description: 'Automatizando execuções com Docker e GitHub Actions'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
